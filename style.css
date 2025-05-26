@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #d898f4;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #dec7f1;
+  color: rgb(62, 160, 45);
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.project-card {
+  background: rgb(172, 194, 233);
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: 1px solid #1e21e5;
+  max-width: 500px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+ul#todoList {
+  list-style: none;
+  padding: 0;
+}
+
+ul#todoList li {
+  background: #e1e183;
+  padding: 8px;
+  margin: 5px auto;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.product-card {
+  border: 1px solid #9175f3;
+  border-radius: 10px;
+  width: 180px;
+  padding: 10px;
+  background: rgba(240, 198, 222, 0.634);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 5px;
+}
